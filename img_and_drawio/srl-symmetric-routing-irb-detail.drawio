@@ -123,7 +123,7 @@
         <mxCell id="KCo3MVqFpDMHRtc2cuKe-47" value="et-1/1/0" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" parent="1" vertex="1">
           <mxGeometry x="-480" y="610" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHjyS_r4L5MsthD1wfRB-3" value="ip-vrf-symmetric&#xa;&#xa;irb1.101&#xa;irb1.102&#xa;vxlan1.101&#xa;    vni 101&#xa;    routed&#xa;bgp-evpn&#xa;    vxlan1.101&#xa;    evi 101&#xa;    target:100:1&#xa;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" parent="1" vertex="1">
+        <mxCell id="tHjyS_r4L5MsthD1wfRB-3" value="ip-vrf-symmetric&#xa;&#xa;irb1.101&#xa;irb1.102&#xa;vxlan1.101&#xa;    vni 101&#xa;    routed&#xa;bgp-evpn&#xa;    vxlan1.101&#xa;    evi 101&#xa;    target:100:101&#xa;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" parent="1" vertex="1">
           <mxGeometry x="-1005.5" y="2" width="141" height="250" as="geometry" />
         </mxCell>
         <mxCell id="tHjyS_r4L5MsthD1wfRB-4" value="vrf-1&#xa;&#xa;irb1.101&#xa;    172.17.1.254/24&#xa;    anycast-gw&#xa;et-1/1/0&#xa;vxlan1.1&#xa;    bridged&#xa;    vni 1&#xa;bgp-evpn&#xa;    vxlan1.1&#xa;    evi 1&#xa;    target:100:1" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" parent="1" vertex="1">
@@ -135,7 +135,7 @@
         <mxCell id="tHjyS_r4L5MsthD1wfRB-10" value="vrf-1&#xa;&#xa;irb1.101&#xa;    172.17.1.254/24&#xa;    anycast-gw&#xa;et-1/1/0&#xa;vxlan1.1&#xa;    bridged&#xa;    vni 1&#xa;bgp-evpn&#xa;    vxlan1.1&#xa;    evi 1&#xa;    target:100:1" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" parent="1" vertex="1">
           <mxGeometry x="-488.25" y="240" width="154" height="293" as="geometry" />
         </mxCell>
-        <mxCell id="B0Z3NQoVapsR8RCg3N8k-1" value="ip-vrf-symmetric&#xa;&#xa;irb1.101&#xa;# no IRB 102&#xa;vxlan1.101&#xa;    vni 101&#xa;    routed&#xa;bgp-evpn&#xa;    vxlan1.101&#xa;    evi 101&#xa;    target:100:1&#xa;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" vertex="1" parent="1">
+        <mxCell id="B0Z3NQoVapsR8RCg3N8k-1" value="ip-vrf-symmetric&#xa;&#xa;irb1.101&#xa;&#xa;vxlan1.101&#xa;    vni 101&#xa;    routed&#xa;bgp-evpn&#xa;    vxlan1.101&#xa;    evi 101&#xa;    target:100:101&#xa;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontFamily=Google Sans;fontStyle=0;fontColor=#FFFFFF;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;" vertex="1" parent="1">
           <mxGeometry x="-501" y="2" width="141" height="250" as="geometry" />
         </mxCell>
       </root>
