@@ -12,6 +12,7 @@ Simple baseline setup to play with an Symmetric IRB setup, 4 leafs and only 2 of
 Symmetric : Ingress and Egress PE both do MAC and IP lookup, however, intra-subnet traffic for example between client 1 and client 3 would still use the MAC-VRF's associated VXLAN tunnels(bridged vxlan - vni 1) it won't use the ip-vrf.
 
 Client 1 <--> Client 3 : bridged , EVPN route type 2
+
 Client 2 <--> Client 3 : routed, EVPN route type 5
 
 MAC-VRF's only need to be created if there are local hosts attached
