@@ -9,11 +9,12 @@ Simple baseline setup to play with an Symmetric IRB setup, 4 leafs and only 2 of
 ![pic1](https://github.com/missoso/srl-symmetric-routing-irb/blob/main/img_and_drawio/srl-symmetric-routing-irb-detail.png)
 
 
-Symmetric : Ingress and Egress PE both do MAC and IP lookup, however, intra-subnet traffic would still use the MAC-VRF's associated VXLAN tunnels
+Symmetric : Ingress and Egress PE both do MAC and IP lookup, however, intra-subnet traffic for example between client 1 and client 3 would still use the MAC-VRF's associated VXLAN tunnels(bridged vxlan - vni 1) it won't use the ip-vrf.
 
-Routed vxlan1.101 for the ip vrf and then one bridged vxlan interface per mac-vrf
+Client 1 <--> Client 3 : bridged , EVPN route type 2
+Client 2 <--> Client 3 : routed, EVPN route type 5
 
-MAC-VRf's only need to be created if there are local hosts attached
+MAC-VRF's only need to be created if there are local hosts attached
 
 # Type 5 routes in leaf 3
 Prefix 172.17.1.0 and 172.17.2.0 regaridng client 1 and client 2
