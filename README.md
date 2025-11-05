@@ -40,7 +40,7 @@ A:leaf1# info
 
 ```
 
-The above would ensure EVPN RT 5 for the specific /32's of the clients on top of the EVPN RT 5 for the sbunet ones
+The above would ensure EVPN RT 5 for the specific /32's of the clients on top of the EVPN RT 5 for the subnet ones
 
 # Type 5 routes in leaf 3
 Prefix 172.17.1.0 and 172.17.2.0 regaridng client 1 and client 2
