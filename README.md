@@ -21,7 +21,7 @@ MAC-VRF's only need to be created if there are local hosts attached
 
 Although the MAC-VRF vrf1 is distributed across two different leafs there isn't a leaf playing in the topology that doesn't have MAC-VRF1, if that was the case (imagine a client for MAC-VRF2 in leaf 4) there would be a a problem since leaf 4 would receive 2 EVPN RT 5 for 172.17.1.0/24, one from leaf 1 and another from leaf 3, meaning it would load balance to reach 172.17.1.1 which only exists in leaf 1.
 
-To fix this we would need to receive EVPN RT5 routers with he host routes and not just the submit routes, this is achievable adding the following to the IRB interface
+To fix this we would need to receive EVPN RT5 routers with he host routes and not just the subnet routes, this is achievable adding the following to the IRB interface
 
 ```bash
 --{ * candidate shared default }--[ interface irb1 ]--
