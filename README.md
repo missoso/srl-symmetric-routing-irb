@@ -1,6 +1,6 @@
-# SR Linux Asymmetric routing scenario
+# SR Linux Symmetric routing scenario
 
-Simple baseline setup to play with an asymmetric IRB setup, 4 leafs and only 2 of them used by default to ensure there are enough free nodes to add more clients
+Simple baseline setup to play with an Symmetric IRB setup, 4 leafs and only 2 of them used by default to ensure there are enough free nodes to add more clients
 
 ---
 
@@ -14,7 +14,7 @@ Simple baseline setup to play with an asymmetric IRB setup, 4 leafs and only 2 o
 
 ## Deploying the lab
 
-The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`asymmetric.clab.yml`](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/asymmetric.clab.yml) file declaratively describes the lab topology.
+The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`symmetric.clab.yml`](https://github.com/missoso/srl-symmetric-routing-irb/blob/main/ssymmetric.clab.yml) file declaratively describes the lab topology.
 
 ```bash
 # change into the cloned directory
