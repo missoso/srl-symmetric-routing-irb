@@ -14,7 +14,7 @@ Simple baseline setup to play with an Symmetric IRB setup, 4 leafs and only 2 of
 
 ## Deploying the lab
 
-The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`symmetric.clab.yml`](https://github.com/missoso/srl-symmetric-routing-irb/blob/main/ssymmetric.clab.yml) file declaratively describes the lab topology.
+The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`symmetric.clab.yml`](https://github.com/missoso/srl-symmetric-routing-irb/blob/main/symmetric.clab.yml) file declaratively describes the lab topology.
 
 ```bash
 # change into the cloned directory
