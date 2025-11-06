@@ -2,11 +2,11 @@
 # Licensed under the BSD 3-Clause License.
 # SPDX-License-Identifier: BSD-3-Clause
 
-name: symetric-routing-irb
+name: symmetric-routing-irb
 prefix: ""
 
 mgmt:
-  network: symetric-routing-irb
+  network: symmetric-routing-irb
   ipv4-subnet: 172.80.80.0/24
 
 topology:
